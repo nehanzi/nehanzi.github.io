@@ -48,6 +48,6 @@ const server = http.createServer(function(req, res){
 });
 
 server.listen(PORT, function(){
-    console.log(`Port ${PORT} now running.`)
+    console.log(`SERVER NOW RUNNING ON PORT ${PORT}`)
 })
 
